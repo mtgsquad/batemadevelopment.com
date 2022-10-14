@@ -17,45 +17,40 @@
 
   <body>
     <div class="topnav">
-      <ul>
-        <li class="active"><a href="javascript:void(0)">Home</a></li>
-        <li><a href="./store/store.html">Store</a></li>
-        <li><a href="./contact/contact.html">Contact</a></li>
-        <li><a href="./other/projects.html">My Projects</a></li>
-        <li><a href="./other/about.html">About</a></li>
-        <li><a href="./accounts/login.html">Login</a></li>
-        <li><a href="./accounts/signup.html">Sign-Up</a></li>
-      </ul>
+      <img alt="Header Image" src="./share/images/headers/dark-header.png" />
+      <div class="links">
+        <a class="active" href="javascript:void(0)">Home</a>
+        <a href="./store/store.html">Store</a>
+        <a href="./contact/contact.html">Contact</a>
+        <a href="./other/projects.html">My Projects</a>
+        <a href="./other/about.html">About</a>
+        <button onclick="window.location.href = './accounts/login.html'">Login</button>
+        <button onclick="window.location.href = './accounts/signup.html'">Sign-Up</button>
+      </div>
     </div>
 
     <header class="header">
-      <img alt="Header Image" src="./share/images/headers/dark-header.png" />
+      <h1>Welcome To Batema Development</h1>
     </header>
 
-    <div class="column">
-      <div class="column left">
-        <h3>Welcome</h3>
-        <p>
-          Welcome to BatemaDevelopment, thank you for stopping by, please have a
-          look around while you are here!
-        </p>
-      </div>
-
-      <div class="column right">
+    <section class="mid">
+      <div class="posts">
         <h3>Blog Posts</h3>
         <a href="javascript:void(0)">N/A</a>
       </div>
-    </div>
+    </section>
 
     <footer class="footer">
-      <a href="https://shockbyte.com/billing/aff.php?aff=4706"><img src="https://shockbyte.com/assets/img/partners/twitch/shockbyte_affiliate.png" alt="Minecraft Server Hosting" /></a>
+      <a href="https://shockbyte.com/billing/aff.php?aff=4706">
+        <img src="https://shockbyte.com/assets/img/partners/twitch/shockbyte_affiliate.png" alt="Minecraft Server Hosting" />
+      </a>
 
-      <p>
+      <div class="links">
         <a href="./agreements/tos.html">Terms of Service</a><br /><a
           href="./agreements/privacypolicy.html"
           >Privacy Policy</a
         >
-      </p>
+      </div>
     </footer>
 
     <script type="module" src="./src/js/index.js"></script>
